@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>test html</title>
+</head>
+<body>
+
+<p id="demo">test html</p>
+<button onclick="myFunction()">clike</button>
+<script>
+var fruits = [];
+function myFunction(){
+	fruits.push(["Kiwi","Kiw1i"]);
+	fruits.push(["K2iwi","Ki2w1i"]);
+	var x=document.getElementById("demo");
+	x.innerHTML=fruits;
+}
+</script>
+
+</body>
+</html>
